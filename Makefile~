@@ -195,7 +195,7 @@ export KBUILD_BUILDHOST := $(SUBARCH)
 ARCH		:= arm
 SUBARCH	:= arm
 ARCH		?= $(SUBARCH)
-CROSS_COMPILE	:= /home/steffen/arm-eabi-4.8/bin/arm-eabi-
+CROSS_COMPILE	:= /home/nikita/SOURCE/arm-eabi-4.8/bin/arm-eabi-
 CROSS_COMPILE	?= $(CONFIG_CROSS_COMPILE:"%"=%)
 
 # Architecture as present in compile.h
